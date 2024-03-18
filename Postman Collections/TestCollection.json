@@ -133,6 +133,28 @@
 				"url": "{{URL}}/entries"
 			},
 			"response": []
+		},
+		{
+			"name": "Req3",
+			"id": "f3393f9c-fd70-43d5-9cd9-bfef0b8f38a1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": test1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{URL}}/entries"
+			},
+			"response": []
 		}
 	],
 	"event": [
